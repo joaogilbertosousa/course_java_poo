@@ -14,30 +14,30 @@ public class Program {
 
 		Product product = new Product();
 
-		System.out.println("Enter product data:");
-		System.out.print("Name: ");
+		IO.println("Enter product data:");
+		IO.print("Name: ");
 		product.name = sc.nextLine();
-		System.out.print("Price: ");
+		IO.print("Price: ");
 		product.price = sc.nextDouble();
-		System.out.print("Quantity in stok: ");
+		IO.print("Quantity in stok: ");
 		product.quantity = sc.nextInt();
 
-		System.out.println();
-		System.out.println("Product data: " + product);
+		IO.println();
+		IO.println("Product data: " + product);
 
-		System.out.println();
-		System.out.print("Enter the number of products to be added in stock: ");
+		IO.println();
+		IO.print("Enter the number of products to be added in stock: ");
 		product.addProducts(sc.nextInt());
 
-		System.out.println();
-		System.out.println("Updated data: " + product);
+		IO.println();
+		IO.println("Updated data: " + product);
 
-		System.out.println();
-		System.out.print("Enter the number of products to be removed from stock: ");
+		IO.println();
+		IO.print("Enter the number of products to be removed from stock: ");
 		product.removeProducts(sc.nextInt());
 
-		System.out.println();
-		System.out.println("Updated data: " + product);
+		IO.println();
+		IO.println("Updated data: " + product);
 
 		sc.close();
 
