@@ -9,11 +9,11 @@ public class S4_sequenc_exerc5 {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		int code1 = sc.nextInt();
+		//int code1 = sc.nextInt();
 		int quantity1 = sc.nextInt();
 		double price1 = sc.nextDouble();
 
-		int code2 = sc.nextInt();
+		//int code2 = sc.nextInt();
 		int quantity2 = sc.nextInt();
 		double price2 = sc.nextDouble();
 

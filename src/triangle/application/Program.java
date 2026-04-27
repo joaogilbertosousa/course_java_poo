@@ -29,6 +29,8 @@ public class Program {
 		System.out.printf("Triangle Y area: %.4f%n", y.area());
 		if(x.area() > y.area()) IO.print("Larger area: X");
 		else IO.print("Larger area: X");
+		
+		sc.close();
 
 	}
 }

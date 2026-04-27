@@ -20,12 +20,12 @@ public class Program {
 		IO.print("Enter account holder: ");
 		String holder = sc.nextLine();
 		IO.print("Is there na initial deposit (y/n)? ");
-		char initialDeposit = sc.next().charAt(0);
+		char response = sc.next().charAt(0);
 		
-		if(initialDeposit == 'y') {
+		if(response == 'y') {
 			IO.print("Enter initial deposit value: ");
-			double balance = sc.nextDouble();
-			account = new Account(number, holder, balance);
+			double initialDeposit = sc.nextDouble();
+			account = new Account(number, holder, initialDeposit);
 		}
 		else {
 			account = new Account(number, holder);
