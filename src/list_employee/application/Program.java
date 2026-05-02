@@ -58,8 +58,8 @@ public class Program {
 		for (Employee x : list) {
 			IO.print(x);
 		}
-		sc.close();
 
+		sc.close();
 	}
 
 }
